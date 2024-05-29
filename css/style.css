@@ -1,3 +1,4 @@
+                /* TOUTE LA PAGE */
 *{
     margin: 0;
     padding: 0;
@@ -9,58 +10,93 @@ body{
     font-size: 16px;
     background-color: hsl(30, 54%, 90%);
     font-family: outfit;
+    color: hsl(24, 5%, 18%);
     line-height: 1.5;
-
+    
 }
 
+P{
+    display: inline-block;
+    color: hsl(24, 5%, 18%);
+    font-weight: 700;
+}
+
+
+                /* LES DIV */
 .container{
     width: 700px;
     background-color: hsl(0, 0%, 100%);
     margin: 100px auto;
-    border-radius: 15px;
-
-}
-
-
-img{
-    width: 640px;
-    height: 300px;
-    border-radius: 15px;
-    margin: 30px 30px 20px 30px ;
-}
-
-ul, ol{
-    margin-bottom: 30px;
-    margin-left: 30px;
-}
-
-li{
-    text-decoration: none;
-    margin-bottom: 10px;
-    padding-left: 20px;
-}
-h1{
-    font-family: Young Serif;
-    font-size: 45px;
-    margin-bottom: 30px;
-    text-transform: capitalize;
+    border-radius: 20px;
 }
 
 .container-inside{
     width: 640px;
     margin: 30px;
-    /* align-items: center; */
     border-bottom: 1px solid hsl(30, 18%, 87%);
 }
 
-.preparation-time{
+.container-preparation-time{
     background-color: hsl(330, 100%, 98%);
     padding: 20px;
     margin: 30px 0;
     border-radius: 15px;
 }
 
+/* IMAGE */
+#image-omelette{
+    width: 640px;
+    height: 300px;
+    border-radius: 15px;
+    margin: 30px 30px 0px 30px ;
+}
 
+                /* LES LISTES */
+ul, ol{
+    margin-bottom: 30px;
+    margin-left: 25px;
+}
+
+ul li{
+    list-style: square;
+}
+
+li{
+    text-decoration: none;
+    margin-bottom: 10px;
+    padding-left: 15px;
+}
+
+.container-preparation-time ul li{
+    list-style: disc;
+}
+
+                /* LES TITRES */
+#page-title{
+    font-family: Young Serif;
+    font-size: 45px;
+    font-weight: 700;
+    color: black;
+    margin-bottom: 20px;
+    text-transform: capitalize;
+}
+
+.heading{
+                /* font-size: 20PX; */
+    font-family: Young Serif;
+    color: hsl(14, 45%, 36%);
+    font-weight: 700;
+    margin-bottom: 20px;
+}
+
+#preparation-time{
+    color: hsl(332, 51%, 32%);
+    margin-bottom: 10px;
+    font-weight: 700;
+    font-size: 20px;
+}
+
+                /* LA TABLE */
 table{
     width: 100%;
     margin: 20px 0;
@@ -71,6 +107,13 @@ td{
     padding: 20px;
 }
 
+td:last-child{
+    color: hsl(14, 45%, 36%);
+    font-weight: 700;
+}
+
 .no-border-bottom{
     border-bottom: none;
 }
+
+
