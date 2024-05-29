@@ -133,7 +133,7 @@ td:last-child{
 
                 /* MOBILE VIEW */
 
-@media (max-width: 375px){
+@media (max-width: 800px){
     .container{
         min-width: 100%;
         background-color: hsl(0, 0%, 100%);
