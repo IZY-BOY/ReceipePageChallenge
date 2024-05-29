@@ -105,12 +105,6 @@ li{
     font-size: 20px;
 }
 
-.bold-text{
-    display: inline-block;
-    color: hsl(24, 5%, 18%);
-    font-weight: 700;
-}
-
                 /* LA TABLE */
 table{
     width: 100%;
